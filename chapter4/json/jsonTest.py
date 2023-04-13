@@ -12,6 +12,7 @@ str = '''
 }]
 '''
 print(type(str))
+#通过loads方法将字典类型的数据转换为了json类型的数据
 data = json.loads(str)
 print(data)
 print(type(data))
